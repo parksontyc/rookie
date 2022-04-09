@@ -6,18 +6,18 @@
 
 password = 'a1234'
 x = 3
-while True:
+while x > 0:
+    x = x - 1
     password1 = input('請輸入密碼:')
     if password1 == password:
         print('密碼正確')
         break
-    elif password1 != password:
-        x = x-1
+    else:
         if x > 0:
             print('你還有', x, '機會')
-        elif x == 0:
+        else:
             print('重新申請')
-            break
+            
 
 
         
