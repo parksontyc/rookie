@@ -56,8 +56,11 @@ mystring1 = 'Hello'
 # print(x)
 # print(y)
 
-x = [1, 3, 5, 6, 7]
-y = x.copy()
-y[0] = 12
-print(x)
-print(y)
+# x = [1, 3, 5, 6, 7]
+# y = x.copy()
+# y[0] = 12
+# print(x)
+# print(y)
+
+person = {'x': {'y' : [0, 1, 7]}}
+print(person['x']['y'][2])
