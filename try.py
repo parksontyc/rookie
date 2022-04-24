@@ -129,10 +129,57 @@ mystring1 = 'Hello'
 # for name, age in myDict.items():
 #     print(f'name is {name}, age is {age}')
 
-counter = 0
+# counter = 0
 
-for i in '1234':
-    for j in 'abcd':
-        print(i, j)
-        counter += 1
-print(f'count total {counter}')
+# for i in '1234':
+#     for j in 'abcd':
+#         print(i, j)
+#         counter += 1
+# print(f'count total {counter}')
+
+# for i in 'abcd':
+#     pass
+# print('haha')
+
+
+# print('before for loops')
+
+# for i in '12345':
+#     for j in 'abcdefg':
+#         if j == 'b':
+#             break
+#         print(i, j)
+#     print(i, j)
+
+# print('after for loop')
+
+# for i in 'abcdef':
+#     if i == 'c':
+#         continue
+#         print('nothing')
+#     print(i)
+
+# print(range(10))
+
+# for i in range(5):
+#     print(i)
+
+# counter = 0
+# for letter in 'how are you  today?':
+#     if counter < 10:
+#         print(letter)
+#         counter += 1
+
+# for item in enumerate('how are you today?'):
+#     print(item)
+
+# for counter, char in enumerate('how are you today?'):
+#     if counter < 10:
+#         print(char)
+
+mylist1 = [1, 2]
+mylist2 = ['a', 'b', 'c']
+mylist3 = ['A', 'B', 'C', 'D']
+
+for i in zip(mylist1, mylist2, mylist3):
+    print(i)
