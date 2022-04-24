@@ -1,6 +1,7 @@
 from cmath import pi
 from operator import index
 from re import A, X
+from typing import runtime_checkable
 
 
 mystring1 = 'Hello'
@@ -62,5 +63,76 @@ mystring1 = 'Hello'
 # print(x)
 # print(y)
 
-person = {'x': {'y' : [0, 1, 7]}}
-print(person['x']['y'][2])
+# person = {'x': {'y' : [0, 1, 7]}}
+# print(person['x']['y'][2])
+
+# mytuple = 'parkson', 40, 'rich'
+# print(mytuple)
+
+# names, age, statement = mytuple
+# print(names, age, statement)
+
+# x = 5
+# y = 20
+
+# temp = x
+# x = y
+# y = temp
+
+# print(x, y)
+# print(x)
+# print(y)
+
+# x, y = y, x
+# print(x, y)
+
+# myString = "a, h , e , H"
+# print(myString == myString.lower())
+
+# if 2 or (10 / 0):
+#     print('2是truthy value, 為true, 不受(10/0)這個無意義運算的影響')
+
+# if (10 / 0) or 2:
+#     print('10除以0沒意義, 壞掉')
+
+# k  = True
+
+# if k == True:
+#     print('k is true')
+
+# # 好一點的寫法
+# if k:
+#     print('k is true')
+
+# if (5 > 3) and []:
+#     print('不會執行')
+# else:
+#     print('empty list is falsy value')
+
+# for variable in iterable object:
+#     do something
+
+# for i in 'hello world':
+#     print(i)
+
+# myList = [1, 3, 5, 7, 9]
+
+# for i in myList:
+#     if i > 5:
+#         print(i)
+
+# myList = [(3, 4), (5, 9), (10, 11)]
+# for a, b in myList:
+#     print(a + b)
+
+# myDict = {"name":"Parkson", "age":40}
+# for name, age in myDict.items():
+#     print(f'name is {name}, age is {age}')
+
+counter = 0
+
+for i in '1234':
+    for j in 'abcd':
+        print(i, j)
+        counter += 1
+print(f'count total {counter}')
